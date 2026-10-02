@@ -1,0 +1,1 @@
+export const BaseUrl = ' https://bookstorebe-ty0m.onrender.com'

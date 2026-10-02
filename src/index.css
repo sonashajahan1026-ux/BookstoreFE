@@ -1,0 +1,65 @@
+@import "tailwindcss";
+@import "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+
+#img{
+    background-image: url("https://images.unsplash.com/photo-1532012197267-da84d127e765?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Ym9va3xlbnwwfHwwfHx8MA%3D%3D");
+    height: 475px;
+    background-attachment: fixed;
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+#homeLog {
+  background-image: url(https://images.unsplash.com/photo-1610072175216-df383b91b89d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  height: 100vh;
+  object-fit: cover;
+  /* background-attachment: fixed; */
+}
+
+#logBox{
+  width: 600px;
+  height: 650px;
+}
+.profilePicholder {
+  position: relative;
+}
+.profilePic {
+   position: absolute;
+    border: white solid 2px ;
+    border-radius: 50%;
+    width: 230px;
+    height: 230px;
+    margin-top: -130px;
+    margin-left: 60px;
+}
+.profilePic img{
+    margin-left: 8px;
+    margin-top: 8px;
+}
+.card {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 450px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow:
+    rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.sec2 {
+  height: 90vh;
+}
+.imgContainer {
+  height: 230px;
+}
+.cardImage {
+  width: 100%;
+  height: 100%;
+}
+.cardTextConatiner {
+  overflow: hidden;
+}
